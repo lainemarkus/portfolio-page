@@ -1,0 +1,51 @@
+body {
+    background: #f3f3f3;
+    color: #544B60;
+}
+
+
+section {
+    padding: 2rem 0;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+a {
+    color:#C25757;
+}
+.heading {
+    color:#75648a;
+    font-weight: 600;
+    font-size: 45px;
+    max-width: 200px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    padding: 1rem 0;
+    
+  }
+
+
+.subheading {
+    
+    color: #C25757;
+}
+
+
+h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+
+.bold {
+    
+    font-weight: 600;
+}
+
+.red {
+    color:#C25757;
+}
