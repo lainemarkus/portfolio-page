@@ -1,17 +1,37 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
+import React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import {
   container,
   navLinks,
   navLinkItem,
-  navLinkText
+  navLinkText,
+  toggleButton,
+  mobileNav
+
 } from './layout.module.css'
 import '../styles/global.css'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = (props) => {
+
+  const toggleB = document.getElementsByClassName({toggleButton})
+  const navbar = document.getElementsByClassName({navLinks})[0]
+
+ // toggleB.addEventListener('click', () => {
+ //   navbar.classList.toggle('active')
+ // })
+
   return (
     <div className={container}>
       
+
+
+      <a href="#" className="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
@@ -20,19 +40,37 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
+            <Link to="#projects" className={navLinkText}>
               My Projects
             </Link>
           </li>
           <li className={navLinkItem} >
-            <Link to="/" className={navLinkText} >
-              <span className="bold red">Contact Me</span>
+            <Link to="#contact" className={navLinkText} id="contact-link"  >
+              Contact Me
             </Link>
           </li>
         </ul>
       </nav>
+
+
+
+
+      <div className="mobile-nav">
+        <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
+        <nav class="nav">
+          <ul className={navLinks}>
+            <li className={navLinkItem}><Link to="#" className={navLinkText}>Home</Link></li>
+            <li className={navLinkItem}><Link to="#about" className={navLinkText}>About Me</Link></li>
+            <li className={navLinkItem}><Link to="#projects" className={navLinkText}>My Projects</Link></li>
+            <li className={navLinkItem}><Link to="#contact" className={navLinkText}>Contact Me</Link></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
       <main>
-        {children}
+        {props.children}
       </main>
     </div>
   )
