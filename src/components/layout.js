@@ -13,12 +13,6 @@ import '../styles/global.css'
 
 const Layout = (props) => {
 
-  const toggleB = document.getElementsByClassName({toggleButton})
-  const navbar = document.getElementsByClassName({navLinks})[0]
-
- // toggleB.addEventListener('click', () => {
- //   navbar.classList.toggle('active')
- // })
 
   return (
     <div className={container}>
