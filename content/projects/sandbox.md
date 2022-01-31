@@ -1,7 +1,10 @@
 ---
 title: Sandbox Entertainment
 subtitle: Hobby Project
-link: ""
+link: "/#"
+link_text: " "
+github: "/#"
+github_text: " "
 image: sandbox.png
 ---
 

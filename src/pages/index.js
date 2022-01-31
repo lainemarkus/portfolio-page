@@ -45,6 +45,9 @@ query MyQuery {
     nodes {
       frontmatter {
         link
+        link_text
+        github
+        github_text
         subtitle
         title
         image {

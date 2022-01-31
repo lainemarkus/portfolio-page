@@ -24,6 +24,8 @@ const myModal = (props) => {
                     <h2 className="modal-heading">{data.frontmatter.title}</h2>
                     <h3 className="modal-subheading">{data.frontmatter.subtitle}</h3>
                     <p>{data.rawMarkdownBody}</p>
+                    <p><a href={data.frontmatter.link}>{data.frontmatter.link_text}</a></p>
+                    <p><a href={data.frontmatter.github}>{data.frontmatter.github_text}</a></p>
                     <div className="modal-buttons">
                         <button className="button" onClick={props.onClose}>Close</button>
                     </div>

@@ -2,6 +2,9 @@
 title: Portfolio Page
 subtitle: Gatsby based page
 link: /#
+link_text: " "
+github: https://github.com/lainemarkus/portfolio-page
+github_text: View on GitHub! 
 image: portfolio.png
 ---
 

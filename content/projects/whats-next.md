@@ -1,7 +1,10 @@
 ---
 title: What's next?
 subtitle: Future Projects
-link: www.fi
+link: "/#"
+link_text: " "
+github: "/#"
+github_text: " "
 image: whatsnext.png
 ---
 

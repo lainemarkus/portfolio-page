@@ -1,7 +1,10 @@
 ---
 title: Weather App
 subtitle: JavaScript and openweathermapAPI
-link: " "
+link: "/#"
+link_text: " "
+github: https://codesandbox.io/s/weather-app-lhe49?
+github_text: View in CodeSandBox!
 image: weatherapp.png
 ---
 
