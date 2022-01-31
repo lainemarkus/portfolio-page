@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div className="cv-item">
                 <p>Want to know more about me and my background? Download my CV!</p>
-                <a href="../../page-data/cv-markus-laine.pdf" download><button>Download CV</button></a>
+                <a href="/cv-markus-laine.pdf" download><button>Download CV</button></a>
             </div>
         </section>
     )
