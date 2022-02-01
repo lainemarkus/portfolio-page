@@ -8,7 +8,7 @@ const About = () => {
             <h2 className="subheading">About me</h2>
             <div className="about-container">     
                 <div className="about-content">
-                    <p>I’m a third year student in <span className="bold">Aalto University</span> and on my second year studying <span className="bold">Information Networks.</span> At Information Networks I’m getting a diverse skillset that combines technical, business, design and teamworking skills without forgetting the societal and user-driven aspects. <a href="https://informaatioverkostot.fi/">Read more about <span className="bold">Information Networks.</span></a> </p>
+                    <p>I’m a third year student in <span className="bold">Aalto University</span> and on my second year studying <span className="bold">Information Networks.</span> At Information Networks I’m getting a diverse skillset that combines technical, business, design and teamworking skills without forgetting the societal and user-driven aspects. <a href="https://informaatioverkostot.fi/" target="_blank" rel="noreferrer">Read more about <span className="bold">Information Networks.</span></a> </p>
 
                     <p>I’m minoring in Computer Science and particularly interested in Web based Applications and Services. </p>
 

@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { useEffect } from 'react'
 import Layout from '../components/layout'
 import PropTypes from "prop-types"
 import Header from '../components/header'
@@ -9,15 +8,9 @@ import Projects from '../components/projects'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
 import { graphql } from 'gatsby'
-import AOS from 'aos'
- 
-const IndexPage = ( {data} ) => {
 
  
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  });
+const IndexPage = ( {data} ) => {
 
   return (
     <Layout pageTitle="Markus Laine">
@@ -38,7 +31,6 @@ IndexPage.propTypes = {
 export default IndexPage
 
 
-
 export const pageQuery = graphql`
 query MyQuery {
   projects: allMarkdownRemark(sort: {fields: frontmatter___title, order: ASC}) {
@@ -57,9 +49,7 @@ query MyQuery {
               placeholder: BLURRED
               )
           }
-        }
-
-        
+        }  
       }
       id
       rawMarkdownBody

@@ -26,20 +26,20 @@ const Contact = () => {
                 <div className="contact-item">
                     <div className="icon"><StaticImage src="../images/github.png"/></div>
                     <div className="contact-text">
-                        <a href="https://github.com/lainemarkus/lainemarkus" target="_blank">My Github</a>
+                        <a href="https://github.com/lainemarkus/lainemarkus" target="_blank" rel="noreferrer">My Github</a>
                     </div>
                     
                 </div>
                 <div className="contact-item">
                     <div className="icon"><StaticImage src="../images/linkedin.png"/></div>
                     <div className="contact-text">
-                        <a href="https://www.linkedin.com/in/laine-markus/" target="_blank">My LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/laine-markus/" target="_blank" rel="noreferrer">My LinkedIn</a>
                     </div>
                 </div>
             </div>
             <div className="cv-item">
                 <p>Want to know more about me and my background? Download my CV!</p>
-                <a href="/cv-markus-laine.pdf" download><button>Download CV</button></a>
+                <a download href="images/email.png"><button>Download CV</button></a>
             </div>
         </section>
     )

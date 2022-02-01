@@ -1,32 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import Modal from './modal.js'
 import PropTypes from "prop-types"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import AOS from 'aos'
+
 
 const Projects = ( {content} ) => {
-
-
-
-  let AOS;
-  useEffect(() => {
-    /**
-     * Server-side rendering does not provide the 'document' object
-     * therefore this import is required either in useEffect or componentDidMount as they
-     * are exclusively executed on a client
-     */
-    const AOS = require("aos");
-    AOS.init({
-      once: true,
-    });
-  }, []);
-
-  useEffect(() => {
-    if (AOS) {
-      AOS.refresh();
-    }
-  });
-
 
 
     const projects = content
@@ -40,10 +18,6 @@ const Projects = ( {content} ) => {
         ) 
     }
 
-
-
-
-    console.log(currentData)
     return (
    
         <section id="projects" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="500">    
