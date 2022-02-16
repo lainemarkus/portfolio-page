@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <p>Created by Markus Laine with GatsbyJS, 2021</p>
+                <p>Created by Markus Laine with GatsbyJS, 2022</p>
             </div>
         </footer>
     )
