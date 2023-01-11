@@ -1,8 +1,8 @@
 ---
-title: Osana suurempaa
-subtitle: React based Campaign Page
-link: //osanasuurempaa.netlify.app
-link_text: Check it out live here!
+title: WATEC CONSULTING
+subtitle: web design and development
+link: //watec.fi
+link_text: see live 
 github: https://github.com/lainemarkus/kampanjasivu
 github_text: View on GitHub!
 image: osanasuurempaa.png
