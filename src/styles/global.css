@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background: #f3f3f3;
-    color: #544B60;
+    background: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -29,14 +29,31 @@ p {
 }
 
 a {
-    color:#C25757;
-    transition: 0.5s;
-}
-
-a:hover {
-    color: #f56060;
-    transition: 0.2s;
-}
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
 
 .about-container {
     display: inline-block;
@@ -63,7 +80,7 @@ a:hover {
 
 
 .header-container {
-    width: 50%;
+    width: 60%;
     display: inline-block;
     vertical-align: middle;
     padding: 0 1rem 2rem 0;
@@ -72,10 +89,10 @@ a:hover {
 }
 
 .header-img-container {
-    width: 40%;
+    width: 30%;
     display: inline-block;
     vertical-align: middle;
-    padding: 0 1rem 2rem 2rem;
+    padding: 0;
 
 
 }
@@ -92,7 +109,7 @@ a:hover {
 .grid-container {
     animation: fadeup 2s infinite;
     display: grid;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     grid-template-columns: 1fr 1fr 1fr; 
     padding: 10px;
     grid-column-gap: 15px;
@@ -107,7 +124,7 @@ a:hover {
     padding: 0;
     font-size: 30px;
     text-align: center;
-    background: #f8f8f8;
+    background: #ffffff;
     box-shadow: 2px 2px 20px rgb(204, 204, 204) ;
     transition: 0.5s;
 }
@@ -149,19 +166,21 @@ a:hover {
 
 
 .heading {
-    color:#705b91;
-    font-weight: 600;
-    font-size: 48px;
+    color:#000000;
+    font-weight: 300;
+    font-size: 80px;
     max-width: 200px;
     letter-spacing: -1px;
-    line-height: 60px;
+    line-height: 100px;
     padding: 1rem 0;
   }
 
 
 .subheading {  
-    color: #C25757;
+    color: #000000;
     font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
 }
 
 
@@ -169,8 +188,9 @@ a:hover {
 h3 {
     font-family: Poppins, sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     padding: 2rem 0;
+    color: #000000;
 }
 
 .bold {
@@ -183,7 +203,7 @@ h3 {
 }
 
 #contact-link {
-    color: #C25757;
+    color: #000000;
     font-weight: 600;
     transition: 0.2s
   }
@@ -206,7 +226,7 @@ h3 {
 }
 
 #projects-box {
-    background-color: #D9DDDF;
+    background-color: #ffffff;
     margin: 0 0 4rem 0;
     padding: 1rem 1rem;
     width: 100%;
@@ -216,7 +236,7 @@ h3 {
     background-color: #3F4041;
     padding: 0;
     height: 25rem;
-    box-shadow: 2px 5px 10px grey ;
+
 }
 
 .project:hover {
@@ -238,8 +258,6 @@ h3 {
     object-fit: cover;
     padding: 2rem;
   
-    
-   
 }
 
 
@@ -289,7 +307,7 @@ img {
     width: 70%;
 
     overflow: scroll;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     padding: 1rem;
     justify-content: space-evenly;
     align-items: center;
@@ -319,9 +337,11 @@ img {
 
 .modal-heading {
     font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
     padding: 0.3rem;
     margin: 0;
-    color: #C25757;
+    color: #000000;
 }
 
 .modal p {
@@ -340,7 +360,7 @@ img {
 
 .modal-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin: 1rem 0;
     max-height: 20%;
     
@@ -350,12 +370,13 @@ img {
 
 button {
 
-    font-family: Syne;
+    font-family: Poppins;
     font-size: 17px;
+    text-transform: uppercase;
     background-color: #f8f8f800;
-    border: 2px solid #C25757;
+    border: none;
     border-radius: 20px;
-    color: #C25757;
+    color: #000000;
     padding: 5px 10px;
     margin: 0 2rem;
     transition: 0.3s;
@@ -365,11 +386,7 @@ button {
 
 button:hover {
 
-    border: 2px solid #C25757;
-    border-radius: 20px;
-    background-color: #C25757;
-    color: #f3f3f3;
-    padding: 5px 10px;
+
     transition: 0.3s;
 
 }
@@ -384,7 +401,7 @@ button:hover {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: #C25757;
+    color: #000000;
     row-gap: 0.5rem;
     column-gap: 3rem;
     margin: 5rem;
@@ -397,9 +414,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #f8f8f8;
-    box-shadow: 2px 2px 20px rgb(204, 204, 204) ;
-    transition: 0.5s;
+
 }
 
 .contact-item:hover {
