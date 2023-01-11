@@ -28,17 +28,17 @@ const Layout = (props) => {
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="#about" className={navLinkText}>
-              About Me
+              <span className='bold'>About</span> Me
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="#projects" className={navLinkText}>
-              My Projects
+              <span className='bold'>My</span> Projects
             </Link>
           </li>
           <li className={navLinkItem} >
-            <Link to="#contact" className={navLinkText} id="contact-link"  >
-              Contact Me
+            <Link to="#contact" className={navLinkText}>
+              <span className='bold'>Contact</span> Me
             </Link>
           </li>
         </ul>
