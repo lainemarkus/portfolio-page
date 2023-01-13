@@ -1,3 +1,1 @@
-Hi there!
-
-This is my Portfolio Page that I made with Gatsby in January 2022. It still needs some tweaks to make it more responsive, and I'm working on it. Hope you like it!
+This is my Portfolio Page that I made with Gatsby in January 2022. I redesigned and updated it for 2023. I will add some new projects here as soon as I get them done. 
