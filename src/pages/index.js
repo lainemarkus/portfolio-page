@@ -33,7 +33,8 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query MyQuery {
-  projects: allMarkdownRemark(sort: {fields: frontmatter___title, order: ASC}) {
+  projects: allMarkdownRemark(sort: {fields: frontmatter___key, order: ASC}) {
+  
     nodes {
       frontmatter {
         link
@@ -42,10 +43,11 @@ query MyQuery {
         github_text
         subtitle
         title
+        key
         image {
           childImageSharp {
             gatsbyImageData(
-              width: 800
+              width: 1000
               placeholder: BLURRED
               )
           }
@@ -57,3 +59,5 @@ query MyQuery {
   }
 }
 `
+
+
