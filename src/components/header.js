@@ -7,7 +7,7 @@ const Header = () => {
             <div className="header-container">
         
                 <h1 className="heading"><span className='bold'>MARKUS</span> LAINE</h1>
-                <h3><span className='bold'>product</span> management, <span className='bold'>UI/UX</span> design, <span className='bold'>we</span> development.</h3>
+                <h3><span className='bold'>product</span> management, <span className='bold'>UI/UX</span> design, <span className='bold'>web</span> development.</h3>
             </div>
             <div className="header-img-container">
                 <StaticImage id="profile-img" src="../images/profile-img.png" alt="image" width={300} placeholder="blurred" layout="fixed" />

@@ -5,21 +5,21 @@ import React from 'react';
 const Contact = () => {
     return (
         <section id="contact">
-            <h2 className="subheading">Contact me</h2>
-            <h3>Would I be a good fit for your team? Want to hear more about me? Contact me and let's create something cool together!</h3>
+            <h2 className="subheading"><span className='bold'>CONTACT</span> ME</h2>
+            <h3>Would I be a fit for your team? I would be happy to tell more about myself!</h3>
             <div className="contact-container">
            
                 <div className="contact-item">
                     <div className="icon"><StaticImage src="../images/phone.png"/></div>
                     <div className="contact-text">
-                        <p>+358 44 5227762</p>
+                        <p>+358 445227762</p>
                     </div>
                     
                 </div>
                 <div className="contact-item">
                     <div className="icon"><StaticImage src="../images/email.png"/></div>
                     <div className="contact-text">
-                        <p>markus.laine(a)aalto.fi</p>
+                        <p>laine.markus(a)outlook.com</p>
                     </div>
                     
                 </div>

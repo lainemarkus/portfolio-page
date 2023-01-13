@@ -5,19 +5,26 @@ import React from 'react';
 const About = () => {
     return (
         <section id="about">
-            <h2 className="subheading">About me</h2>
+            <h2 className="subheading"><span className='bold'>ABOUT</span> ME</h2>
             <div className="about-container">     
                 <div className="about-content">
-                    <p>I’m a third year student in <span className="bold">Aalto University</span> and on my second year studying <span className="bold">Information Networks.</span> At Information Networks I’m getting a diverse skillset that combines technical, business, design and teamworking skills without forgetting the societal and user-driven aspects. <a href="https://informaatioverkostot.fi/" target="_blank" rel="noreferrer">Read more about <span className="bold">Information Networks.</span></a> </p>
+                    <p>As a student with passion for design, development and product management, I am 
+                    constantly striving to expand my skillset and stay ahead of the curve of the digital landscape. 
+                    I believe that having a diverse range of skills is a valuable asset in the ever-changing digital world,
+                    and I am looking to put my skillset into action. I am striving to help companies and clients deliver 
+                    value through digital products and make a positive impact on society. With strong problem-solving skills, a team-oriented mindset, 
+                    and an unwavering enthusiasm for learning and growth, I am confident in my ability to deliver innovative 
+                    solutions that stand out and truly make a difference. Thank you for visiting my portfolio, I hope you enjoy
+                    my perspective and recognize the value that I could bring to your company. </p>
 
-                    <p>I’m minoring in Computer Science and particularly interested in Web based Applications and Services. </p>
+                    <p></p>
 
-                    <p>I’m looking forward to learning more about <span className="bold">Web Development </span> as well as <span className="bold">UX/UI Design</span> and <span className="bold">Visual Design.</span> I’m also interested in learning opportunities with Service Development and Growth Hacking. </p>
-
-                    <p>I am a social and active person and I like to challenge myself. Although I’m still a rough diamond, I thrive to learn more and enhance my skills. I also like to take it easy somethimes and have fun with my friends. I’m also active in our student guild Athene and and enjoy doing voluntary work for our amazing community.</p>
                 </div>
                 <div id="graphic-container">
-                    <StaticImage src="../images/graphic.png" alt="graphic" width={200} placeholder="blurred" layout="fixed"/>
+ 
+
+
+              
                 </div>
             </div>
         </section>
