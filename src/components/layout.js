@@ -8,8 +8,12 @@ import {
 
 } from './layout.module.css'
 import '../styles/global.css'
+import AOS from 'aos'
+
 
 const Layout = (props) => {
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+  AOS.init();
 
 
   return (
@@ -33,7 +37,7 @@ const Layout = (props) => {
           </li>
           <li className={navLinkItem}>
             <Link to="#projects" className={navLinkText}>
-              <span className='bold'>My</span> Projects
+              <span className='bold'>My</span> Portfolio
             </Link>
           </li>
           <li className={navLinkItem} >
