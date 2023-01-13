@@ -1,20 +1,38 @@
+
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background: #ffffff;
+    background: #f3f2f1;
     color: #000000;
+    margin: 0;  
+
 }
 
 header {
-    display: inline-block;
+    display: flex;
+    margin: 6rem auto;
+    justify-content: center;
+
+
     
-    justify-content: space-around;
 }
+
+header h3 {
+    max-width: 400px;
+    text-align: right;
+    
+    margin: 0;
+}
+
+
+
 section {
     padding: 0;
     display: inline-block;
+
 }
 
 footer {
@@ -43,8 +61,8 @@ a {
     position: absolute;
     display: block;
     width: 100%;
-    height: 2px;
-    bottom: 0;
+    height: 3px;
+    bottom: -5px;
     left: 0;
     background-color: #000;
     transform: scaleX(0);
@@ -52,7 +70,13 @@ a {
   }
   
   a:hover::before {
-    transform: scaleX(1);
+    transform: scaleX(0.8);
+  }
+
+
+  #about {
+    padding: 7rem 5rem;
+    border-top: 1px solid #dddfe1;
   }
 
 .about-container {
@@ -63,6 +87,7 @@ a {
 .about-content {
     width: 50%;
     display: inline-block;
+
     
 }
 
@@ -81,18 +106,15 @@ a {
 
 
 .header-container {
-    width: 60%;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 1rem 2rem 0;
+
+    margin: 0 5em 0 0;
+    
 
 
 }
 
 .header-img-container {
-    width: 30%;
-    display: inline-block;
-    vertical-align: middle;
+    justify-content: center;
     padding: 0;
 
 
@@ -100,9 +122,14 @@ a {
 
 
 #projects {
+
     margin: 7rem 0;
+    padding: 4rem 5rem;
+    background-color: #000;
+    color: white;
   
 
+ 
 }
 
 
@@ -110,11 +137,11 @@ a {
 .grid-container {
     animation: fadeup 2s infinite;
     display: grid;
-    background-color: #ffffff;
-    grid-template-columns: 1fr 1fr 1fr; 
-    padding: 10px;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    background-color: #000000;
+    grid-template-columns: 1fr 1fr; 
+    padding: 4rem;
+    grid-column-gap: 10rem;
+    grid-row-gap: 6rem;
     margin: 2rem;
 }
 
@@ -124,32 +151,38 @@ a {
     border: none;
     padding: 0;
     font-size: 30px;
-    text-align: center;
-    background: #ffffff;
-    box-shadow: 2px 2px 20px rgb(204, 204, 204) ;
+    color: #ffffff;
+    text-align: left;
+    background: #000000;
     transition: 0.5s;
 }
 
 .grid-item:hover {
-    transform: scale(1.015);
+    transform: scale(1.00);
     transition: 0.2s;
 
 
 }
 
+
 .grid-footer {
     padding: 0.5rem;
 }
+
+
 .grid-item h3 {
     padding: 0; 
     margin: 0;
+    color: #ffffff;
 }
+
 
 .grid-item p {
     padding: 0.5rem;
     margin: 0;
     color: #787c80;
 }
+
 
 .grid-image {
     background-color: white;
@@ -161,7 +194,6 @@ a {
 
     filter: opacity(90%);
     transition: 0.2s;
-    
    
 }
 
@@ -170,17 +202,19 @@ a {
     color:#000000;
     font-weight: 300;
     font-size: 80px;
-    max-width: 200px;
-    letter-spacing: -1px;
+    max-width: 400px;
+    letter-spacing: -3px;
     line-height: 100px;
-    padding: 1rem 0;
+    text-align: right;
+
+
   }
 
 
 .subheading {  
     color: #000000;
-    font-size: 30px;
-    text-transform: capitalize;
+    font-size: 40px;
+    text-transform: uppercase;
     font-weight: 300;
 }
 
@@ -194,8 +228,8 @@ h3 {
     color: #000000;
 }
 
+
 .bold {
-    
     font-weight: 600;
 }
 
@@ -203,11 +237,15 @@ h3 {
     color:#C25757;
 }
 
+.white {
+    color: #ffffff;
+}
+
 #contact-link {
     color: #000000;
     font-weight: 600;
     transition: 0.2s
-  }
+}
 
 
 
@@ -229,7 +267,7 @@ h3 {
 #projects-box {
     background-color: #ffffff;
     margin: 0 0 4rem 0;
-    padding: 1rem 1rem;
+    padding: 1rem 4rem;
     width: 100%;
 }
 
@@ -249,7 +287,7 @@ h3 {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 
 }
 
@@ -306,7 +344,6 @@ img {
 
 .modal-content {
     width: 70%;
-
     overflow: scroll;
     background-color: #ffffff;
     padding: 1rem;
@@ -347,6 +384,7 @@ img {
 
 .modal p {
     font-size: 13px;
+    color: #000;
 }
 
 .modal-image {
@@ -370,16 +408,14 @@ img {
 }
 
 button {
-
+    color: white;
     font-family: Poppins;
     font-size: 17px;
     text-transform: uppercase;
-    background-color: #f8f8f800;
-    border: none;
-    border-radius: 20px;
-    color: #000000;
+    background-color: #000;
+    border: 1px solid #000000;
     padding: 5px 10px;
-    margin: 0 2rem;
+    
     transition: 0.3s;
 
 
@@ -387,9 +423,16 @@ button {
 
 button:hover {
 
-
+    color: black;
+    background-color: #ffffff;
     transition: 0.3s;
+  
 
+}
+
+
+button:hover::before {
+    transform: scaleX(1);
 }
 
 
@@ -398,33 +441,55 @@ button:hover {
     padding: 1rem;
 }
 
+
+
+
 .contact-container {
-    
+ 
+    padding: 5rem 15%;
     display: grid;
+    justify-content: space-around;
+    text-align: center;
+
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: #000000;
     row-gap: 0.5rem;
     column-gap: 3rem;
-    margin: 5rem;
+   
     
 }
 
 .contact-item {
+    max-width: 130px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    
 
 }
 
-.contact-item:hover {
-    transform: scale(1.015);
-    transition: 0,2s;
+.contact-item p {
+    margin: 0;
 }
+
+.contact-text {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
 
 #contact {
-    margin-bottom: 10rem;
+    display: block;
+    align-items: flex-end;
+    padding: 5rem;
+    border: 1px solid #dddfe1;
+
+    
 }
 
 .cv-item {
@@ -433,7 +498,8 @@ button:hover {
 
 .mobile-nav {
     visibility: hidden;
-  }
+}
+
 
 @media only screen and (max-width: 1000px) {
     .grid-container {
@@ -454,17 +520,47 @@ button:hover {
 
 }
 
+
+
+
 @media only screen and (max-width: 700px) {
-    #graphic-container {
-        visibility: hidden;
+
+
+
+    header {
+        display: flex;
+        flex-direction: column;
     }
+    
+    .header-img-container {
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    
 
     .about-content { 
         width: 100%;
+
+    }
+
+    #about {
+        padding: 0;
+        border: none;
+    }
+    .about-container {
+        padding: 1rem 1rem 5rem 1rem;
     }
 
     .grid-container {
         grid-template-columns: 1fr;
+    }
+
+    #projects {
+        margin: 0;
+        padding: 1rem;
+  
     }
 
     section {
@@ -472,13 +568,29 @@ button:hover {
         padding: 0;
     }
 
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        font-size: 9px;
+        overflow-y: scroll;
+        max-height: 700px;
+    }
 
-}
+    .modal {
+ 
+        overflow: scroll;
+    }
 
-@media only screen and (max-width: 700px) {
+    #contact {
+        padding: 2rem;
+        border: none;
+    }
+    
 
     .contact-container {
         grid-template-columns: 1fr;
+   
     }
 
 }
+
