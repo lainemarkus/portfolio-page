@@ -1,13 +1,13 @@
 ---
 title: WATEC CONSULTING
+key: 1
 subtitle: web design and development
 link: //watec.fi
 link_text: see live 
-github: https://github.com/lainemarkus/kampanjasivu
-github_text: View on GitHub!
-image: osanasuurempaa.png
+github: ''
+github_text: ''
+image: watec-consulting.png
 
 ---
 
-
-This campaign and the website was created at Aalto University on courses "Viestintä ja digitaalinen media" and "Verkkojulkaisemisen perusteet". We built the website as a team from scratch using React, and I was responsible for the Visual Design and most of the Frontend Development as well as the final touches of this website. The project also taught me a lot about collaborating in a project and building a website together with a team using GitHub. This was also the first React based website, and I learned a lot during this project. I also created about one third of the copytext on this website. 
+Me and Lilya Lagerbohm (she's great, btw!) built a completely new website for Watec Consulting as the old website needed a redo. The website was built using Squarespace. The project started with discussing with the clients about their needs and wishes to form an driving idea. We designed the look of the website together and I was in charge of most of the implementation. Although there were not much programming included, some custom code was needed to create a website that suited the needs of the company. I also participated in some of the copywriting. It was a great learning experience of building a website that suits the customer's needs, all in a relatively short timeframe. 
