@@ -278,6 +278,11 @@ h3 {
 
 }
 
+#projects-heading {
+    color: #f3f2f1;
+}
+
+
 .project:hover {
     background-color: white;
     transition: 0.2s;
@@ -311,8 +316,6 @@ h3 {
     filter: opacity(50%);
     transition: 0.2s;
 }
-
-
 
 
 img {
