@@ -21,7 +21,7 @@ const Projects = ( {content} ) => {
     return (
    
         <section id="projects" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="500">    
-            <h2 id="projects-heading" className="subheading"><span className='bold'>MY</span> PORTFOLIO</h2>
+            <h2 id="projects-heading" className="subheading"><span className='bold'>My Portfolio</span></h2>
             
             <div id="projects-container">
                 

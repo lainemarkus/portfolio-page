@@ -1,6 +1,6 @@
 ---
 title: PRODUCT MANAGEMENT COURSE
-key: 5
+key: 6
 subtitle: product management, UI/UX design
 link: //drive.google.com/drive/folders/1Hl5d_lXRWTG2oqDt8jo92cw6PcRuSHKM?usp=share_link
 link_text: "see here"
