@@ -5,9 +5,13 @@ html {
 }
 
 body {
-    background: #f3f2f1;
+    background: #ffffff;
     color: #000000;
     margin: 0;  
+    font-family: 'Helvetica Neue', sans-serif;
+
+
+
 
 }
 
@@ -15,18 +19,18 @@ header {
     display: flex;
     margin: 6rem auto;
     justify-content: center;
-
-
     
 }
+
 
 header h3 {
     max-width: 400px;
     text-align: right;
+
+
     
     margin: 0;
 }
-
 
 
 section {
@@ -42,7 +46,6 @@ footer {
 }
 
 p {
-    font-family: 'Poppins';
     font-size: 14px;
 }
 
@@ -75,13 +78,14 @@ a {
 
 
   #about {
-    padding: 7rem 5rem;
+    padding: 7rem 5rem 2rem 5rem;
     border-top: 1px solid #dddfe1;
   }
 
 .about-container {
     display: inline-block;
     justify-content: center;
+    
 }
 
 .about-content {
@@ -108,6 +112,7 @@ a {
 .header-container {
 
     margin: 0 5em 0 0;
+    
     
 
 
@@ -200,11 +205,11 @@ a {
 
 .heading {
     color:#000000;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 80px;
     max-width: 400px;
-    letter-spacing: -3px;
-    line-height: 100px;
+    letter-spacing: 0px;
+    line-height: 80px;
     text-align: right;
 
 
@@ -214,14 +219,12 @@ a {
 .subheading {  
     color: #000000;
     font-size: 40px;
-    text-transform: uppercase;
     font-weight: 300;
 }
 
 
 
 h3 {
-    font-family: Poppins, sans-serif;
     font-size: 20px;
     font-weight: 300;
     padding: 2rem 0;
@@ -229,8 +232,9 @@ h3 {
 }
 
 
+
 .bold {
-    font-weight: 600;
+    font-weight:700;
 }
 
 .red {
@@ -379,7 +383,6 @@ img {
 .modal-heading {
     font-size: 30px;
     font-weight: 600;
-    text-transform: uppercase;
     padding: 0.3rem;
     margin: 0;
     color: #000000;
@@ -412,11 +415,9 @@ img {
 
 button {
     color: white;
-    font-family: Poppins;
     font-size: 17px;
-    text-transform: uppercase;
     background-color: #000;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     padding: 5px 10px;
     
     transition: 0.3s;
@@ -520,6 +521,13 @@ button:hover::before {
         height: 140px;
     }
 
+    #about-img {
+        width: 100%;
+    }
+
+    #graphic-container {
+        width: 100%;
+    } 
 
 }
 
@@ -596,4 +604,6 @@ button:hover::before {
     }
 
 }
+
+
 

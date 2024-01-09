@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&family=Syne:wght@400;500;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
 
 .container {
     padding: 0rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     
   }
   
@@ -12,9 +13,8 @@
     list-style: none;
     padding: 0 1rem 1rem 0;
     justify-content: end;
-    text-transform: uppercase;
     border-bottom: 1px solid #ddd;
- 
+
 
   }
   .nav-link-item {
