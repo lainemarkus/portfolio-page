@@ -5,7 +5,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <section id="contact">
-            <h2 className="subheading"><span className='bold'>CONTACT</span> ME</h2>
+            <h2 className="subheading"><span className='bold'>Contact me</span></h2>
             <h3>Would I be a fit for your team? I would be happy to tell more about myself!</h3>
             <div className="contact-container">
            

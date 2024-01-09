@@ -23,7 +23,7 @@ const myModal = (props) => {
                 <div className="modal-footer">
                     <h2 className="modal-heading">{data.frontmatter.title}</h2>
                     <h3 className="modal-subheading">{data.frontmatter.subtitle}</h3>
-                    <p>{data.rawMarkdownBody}</p>
+                    <p dangerouslySetInnerHTML={{ __html: data.rawMarkdownBody.replace(/\n/g, '<br/>') }} />
                     <p><a href={data.frontmatter.link} target="_blank" rel="noreferrer">{data.frontmatter.link_text}</a></p>
                     <p><a href={data.frontmatter.github} target="_blank" rel="noreferrer">{data.frontmatter.github_text}</a></p>
                     <div className="modal-buttons">
